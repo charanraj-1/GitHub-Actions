@@ -11,9 +11,9 @@ jobs:
         python-version: [3.8, 3.9]
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v3 #here  version - 3 of checkout plugin inside the GitHub Actions
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v2 # here  version - 2 of python plugin inside the GitHub Actions
       with:
         python-version: ${{ matrix.python-version }}
 
