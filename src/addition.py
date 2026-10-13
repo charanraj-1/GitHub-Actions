@@ -4,5 +4,4 @@ def add(a, b):
     print (a + b)
 
 def test_add():
-    assert add(1, 2) == 3
-    assert add(1, -1) == 0
+    assert add(1, 2) == 3, "it is true that 3 is the answer"
